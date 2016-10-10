@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Number" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Jb7-xo-pVa">
+                                <rect key="frame" x="40" y="50" width="140" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.90814153643657924" blue="0.78024072726766447" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="140" id="vhU-eL-Q2p"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Limit" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="l2w-Oe-DOu">
+                                <rect key="frame" x="254" y="50" width="140" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.91374608843794847" blue="0.81743097334703929" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="140" id="ubX-Sw-qgl"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ll5-6C-Qng">
+                                <rect key="frame" x="101" y="139" width="245" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.35339429758035046" blue="0.16834315836393465" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="calculateButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BjE-wW-eTq"/>
+                                </connections>
+                            </button>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="cm4-1l-cOf">
+                                <rect key="frame" x="103" y="269" width="240" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.78834214933880631" blue="0.73455349501678258" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="l2w-Oe-DOu" secondAttribute="trailing" constant="20" id="9dF-Fz-Ugl"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="cm4-1l-cOf" secondAttribute="bottom" id="DSe-Bn-0xN"/>
+                            <constraint firstItem="ll5-6C-Qng" firstAttribute="trailing" secondItem="l2w-Oe-DOu" secondAttribute="trailing" id="GwV-MG-NkR"/>
+                            <constraint firstItem="Jb7-xo-pVa" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="30" id="IqX-bq-qzW"/>
+                            <constraint firstItem="ll5-6C-Qng" firstAttribute="top" secondItem="l2w-Oe-DOu" secondAttribute="bottom" constant="30" id="JYO-pM-b0U"/>
+                            <constraint firstItem="l2w-Oe-DOu" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="30" id="MwC-2J-1hk"/>
+                            <constraint firstItem="cm4-1l-cOf" firstAttribute="top" secondItem="ll5-6C-Qng" secondAttribute="bottom" constant="30" id="TDi-s6-3Xp"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="cm4-1l-cOf" secondAttribute="trailing" constant="-20" id="Y1n-lz-ZfH"/>
+                            <constraint firstItem="ll5-6C-Qng" firstAttribute="leading" secondItem="Jb7-xo-pVa" secondAttribute="leading" id="aP0-lT-ecN"/>
+                            <constraint firstItem="Jb7-xo-pVa" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="gAt-79-miT"/>
+                            <constraint firstItem="cm4-1l-cOf" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="nVy-yM-zZL"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="calculateButton" destination="ll5-6C-Qng" id="J8h-0f-1X4"/>
+                        <outlet property="limitField" destination="l2w-Oe-DOu" id="C0n-wa-O0N"/>
+                        <outlet property="numberField" destination="Jb7-xo-pVa" id="VuC-jR-G0m"/>
+                        <outlet property="numberTableView" destination="cm4-1l-cOf" id="rIT-db-joZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="288" y="303"/>
+        </scene>
+    </scenes>
+</document>

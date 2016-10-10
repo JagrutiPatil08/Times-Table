@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		324259F51D92585E000546D7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 324259F41D92585E000546D7 /* main.m */; };
+		324259F81D92585E000546D7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 324259F71D92585E000546D7 /* AppDelegate.m */; };
+		324259FB1D92585E000546D7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 324259FA1D92585E000546D7 /* ViewController.m */; };
+		324259FE1D92585E000546D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 324259FC1D92585E000546D7 /* Main.storyboard */; };
+		32425A001D92585E000546D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 324259FF1D92585E000546D7 /* Assets.xcassets */; };
+		32425A031D92585E000546D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32425A011D92585E000546D7 /* LaunchScreen.storyboard */; };
+		32425A0E1D92585E000546D7 /* JPTimeTable__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32425A0D1D92585E000546D7 /* JPTimeTable__Tests.m */; };
+		32425A191D92585E000546D7 /* JPTimeTable__UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32425A181D92585E000546D7 /* JPTimeTable__UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		32425A0A1D92585E000546D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 324259E81D92585E000546D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 324259EF1D92585E000546D7;
+			remoteInfo = JPTimeTable..;
+		};
+		32425A151D92585E000546D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 324259E81D92585E000546D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 324259EF1D92585E000546D7;
+			remoteInfo = JPTimeTable..;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		324259F01D92585E000546D7 /* JPTimeTable...app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JPTimeTable...app; sourceTree = BUILT_PRODUCTS_DIR; };
+		324259F41D92585E000546D7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		324259F61D92585E000546D7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		324259F71D92585E000546D7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		324259F91D92585E000546D7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		324259FA1D92585E000546D7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		324259FD1D92585E000546D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		324259FF1D92585E000546D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		32425A021D92585E000546D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		32425A041D92585E000546D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32425A091D92585E000546D7 /* JPTimeTable..Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JPTimeTable..Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		32425A0D1D92585E000546D7 /* JPTimeTable__Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JPTimeTable__Tests.m; sourceTree = "<group>"; };
+		32425A0F1D92585E000546D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32425A141D92585E000546D7 /* JPTimeTable..UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JPTimeTable..UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		32425A181D92585E000546D7 /* JPTimeTable__UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JPTimeTable__UITests.m; sourceTree = "<group>"; };
+		32425A1A1D92585E000546D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		324259ED1D92585E000546D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32425A061D92585E000546D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32425A111D92585E000546D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		324259E71D92585E000546D7 = {
+			isa = PBXGroup;
+			children = (
+				324259F21D92585E000546D7 /* JPTimeTable.. */,
+				32425A0C1D92585E000546D7 /* JPTimeTable..Tests */,
+				32425A171D92585E000546D7 /* JPTimeTable..UITests */,
+				324259F11D92585E000546D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		324259F11D92585E000546D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				324259F01D92585E000546D7 /* JPTimeTable...app */,
+				32425A091D92585E000546D7 /* JPTimeTable..Tests.xctest */,
+				32425A141D92585E000546D7 /* JPTimeTable..UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		324259F21D92585E000546D7 /* JPTimeTable.. */ = {
+			isa = PBXGroup;
+			children = (
+				324259F61D92585E000546D7 /* AppDelegate.h */,
+				324259F71D92585E000546D7 /* AppDelegate.m */,
+				324259F91D92585E000546D7 /* ViewController.h */,
+				324259FA1D92585E000546D7 /* ViewController.m */,
+				324259FC1D92585E000546D7 /* Main.storyboard */,
+				324259FF1D92585E000546D7 /* Assets.xcassets */,
+				32425A011D92585E000546D7 /* LaunchScreen.storyboard */,
+				32425A041D92585E000546D7 /* Info.plist */,
+				324259F31D92585E000546D7 /* Supporting Files */,
+			);
+			path = JPTimeTable..;
+			sourceTree = "<group>";
+		};
+		324259F31D92585E000546D7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				324259F41D92585E000546D7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		32425A0C1D92585E000546D7 /* JPTimeTable..Tests */ = {
+			isa = PBXGroup;
+			children = (
+				32425A0D1D92585E000546D7 /* JPTimeTable__Tests.m */,
+				32425A0F1D92585E000546D7 /* Info.plist */,
+			);
+			path = JPTimeTable..Tests;
+			sourceTree = "<group>";
+		};
+		32425A171D92585E000546D7 /* JPTimeTable..UITests */ = {
+			isa = PBXGroup;
+			children = (
+				32425A181D92585E000546D7 /* JPTimeTable__UITests.m */,
+				32425A1A1D92585E000546D7 /* Info.plist */,
+			);
+			path = JPTimeTable..UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		324259EF1D92585E000546D7 /* JPTimeTable.. */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32425A1D1D92585E000546D7 /* Build configuration list for PBXNativeTarget "JPTimeTable.." */;
+			buildPhases = (
+				324259EC1D92585E000546D7 /* Sources */,
+				324259ED1D92585E000546D7 /* Frameworks */,
+				324259EE1D92585E000546D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JPTimeTable..;
+			productName = JPTimeTable..;
+			productReference = 324259F01D92585E000546D7 /* JPTimeTable...app */;
+			productType = "com.apple.product-type.application";
+		};
+		32425A081D92585E000546D7 /* JPTimeTable..Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32425A201D92585E000546D7 /* Build configuration list for PBXNativeTarget "JPTimeTable..Tests" */;
+			buildPhases = (
+				32425A051D92585E000546D7 /* Sources */,
+				32425A061D92585E000546D7 /* Frameworks */,
+				32425A071D92585E000546D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32425A0B1D92585E000546D7 /* PBXTargetDependency */,
+			);
+			name = JPTimeTable..Tests;
+			productName = JPTimeTable..Tests;
+			productReference = 32425A091D92585E000546D7 /* JPTimeTable..Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		32425A131D92585E000546D7 /* JPTimeTable..UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32425A231D92585E000546D7 /* Build configuration list for PBXNativeTarget "JPTimeTable..UITests" */;
+			buildPhases = (
+				32425A101D92585E000546D7 /* Sources */,
+				32425A111D92585E000546D7 /* Frameworks */,
+				32425A121D92585E000546D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32425A161D92585E000546D7 /* PBXTargetDependency */,
+			);
+			name = JPTimeTable..UITests;
+			productName = JPTimeTable..UITests;
+			productReference = 32425A141D92585E000546D7 /* JPTimeTable..UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		324259E81D92585E000546D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Jagruti Patil";
+				TargetAttributes = {
+					324259EF1D92585E000546D7 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					32425A081D92585E000546D7 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 324259EF1D92585E000546D7;
+					};
+					32425A131D92585E000546D7 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 324259EF1D92585E000546D7;
+					};
+				};
+			};
+			buildConfigurationList = 324259EB1D92585E000546D7 /* Build configuration list for PBXProject "JPTimeTable.." */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 324259E71D92585E000546D7;
+			productRefGroup = 324259F11D92585E000546D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				324259EF1D92585E000546D7 /* JPTimeTable.. */,
+				32425A081D92585E000546D7 /* JPTimeTable..Tests */,
+				32425A131D92585E000546D7 /* JPTimeTable..UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		324259EE1D92585E000546D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32425A031D92585E000546D7 /* LaunchScreen.storyboard in Resources */,
+				32425A001D92585E000546D7 /* Assets.xcassets in Resources */,
+				324259FE1D92585E000546D7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32425A071D92585E000546D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32425A121D92585E000546D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		324259EC1D92585E000546D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				324259FB1D92585E000546D7 /* ViewController.m in Sources */,
+				324259F81D92585E000546D7 /* AppDelegate.m in Sources */,
+				324259F51D92585E000546D7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32425A051D92585E000546D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32425A0E1D92585E000546D7 /* JPTimeTable__Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32425A101D92585E000546D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32425A191D92585E000546D7 /* JPTimeTable__UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		32425A0B1D92585E000546D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 324259EF1D92585E000546D7 /* JPTimeTable.. */;
+			targetProxy = 32425A0A1D92585E000546D7 /* PBXContainerItemProxy */;
+		};
+		32425A161D92585E000546D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 324259EF1D92585E000546D7 /* JPTimeTable.. */;
+			targetProxy = 32425A151D92585E000546D7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		324259FC1D92585E000546D7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				324259FD1D92585E000546D7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		32425A011D92585E000546D7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32425A021D92585E000546D7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		32425A1B1D92585E000546D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		32425A1C1D92585E000546D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32425A1E1D92585E000546D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JPTimeTable../Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Jagruti.JPTimeTable--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		32425A1F1D92585E000546D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JPTimeTable../Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Jagruti.JPTimeTable--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		32425A211D92585E000546D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JPTimeTable..Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Jagruti.JPTimeTable--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JPTimeTable...app/JPTimeTable..";
+			};
+			name = Debug;
+		};
+		32425A221D92585E000546D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JPTimeTable..Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Jagruti.JPTimeTable--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JPTimeTable...app/JPTimeTable..";
+			};
+			name = Release;
+		};
+		32425A241D92585E000546D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JPTimeTable..UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Jagruti.JPTimeTable--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JPTimeTable..;
+			};
+			name = Debug;
+		};
+		32425A251D92585E000546D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JPTimeTable..UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Jagruti.JPTimeTable--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JPTimeTable..;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		324259EB1D92585E000546D7 /* Build configuration list for PBXProject "JPTimeTable.." */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32425A1B1D92585E000546D7 /* Debug */,
+				32425A1C1D92585E000546D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32425A1D1D92585E000546D7 /* Build configuration list for PBXNativeTarget "JPTimeTable.." */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32425A1E1D92585E000546D7 /* Debug */,
+				32425A1F1D92585E000546D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		32425A201D92585E000546D7 /* Build configuration list for PBXNativeTarget "JPTimeTable..Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32425A211D92585E000546D7 /* Debug */,
+				32425A221D92585E000546D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		32425A231D92585E000546D7 /* Build configuration list for PBXNativeTarget "JPTimeTable..UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32425A241D92585E000546D7 /* Debug */,
+				32425A251D92585E000546D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 324259E81D92585E000546D7 /* Project object */;
+}
